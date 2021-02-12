@@ -1,0 +1,12 @@
+.Content {
+  $block: #{&};
+
+  display: flex;
+  flex: 1;
+  background-color: #dddddd;
+  padding: 3rem;
+
+  #{&}__title {
+    font-size: 3.2rem;
+  }
+}
